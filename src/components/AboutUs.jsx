@@ -2,17 +2,20 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 function AboutUs() {
   return (
-    <section id="about" className="py-20  px-8 min-h-screen flex  justify-between gap-24 ">
-      <picture className="w-[42%] relative">
-        <img src="./AboutUs1.svg" alt="" className="w-full h-auto" />
-        <p className="bg-green-600 text-white px-4 py-10 absolute w-52 rounded-lg -right-6 top-1/2 translate-y-[-50%]">
+    <section
+      id="about"
+      className="flex min-h-screen justify-between gap-24 px-8 py-20"
+    >
+      <picture className="relative w-[42%]">
+        <img src="./AboutUs1.svg" alt="" className="h-auto w-full" />
+        <p className="absolute -right-6 top-1/2 w-52 translate-y-[-50%] rounded-lg bg-green-600 px-4 py-10 text-white">
           We believe in the power of well-crafted communication to elevate your
           work and make a lasting impact.
         </p>
       </picture>
-      <main className="w-[58%] flex flex-col gap-4">
-        <h4 className="text-blue-600 font-bold">About Us</h4>
-        <h2 className="font-bold text-3xl">Learn about who we are</h2>
+      <main className="flex w-[58%] flex-col gap-4">
+        <h4 className="font-bold text-blue-600">About Us</h4>
+        <h2 className="text-3xl font-bold">Learn about who we are</h2>
         <p className="mb-4 text-stone-700">
           Quillovate is a collaborative effort of passionate researchers and
           seasoned writers committed to excellence in every word. Our team
@@ -21,30 +24,30 @@ function AboutUs() {
         </p>
         <div className="flex justify-between gap-4">
           <div className="flex flex-col gap-6">
-            <ul className="h-full flex gap-6 flex-col">
+            <ul className="flex h-full flex-col gap-6">
               <li className="flex gap-3.5">
-                <IoIosCheckmarkCircle className="text-blue-600 text-3xl" />
+                <IoIosCheckmarkCircle className="text-3xl text-blue-600" />
                 <span>
-                  <p className="font-bold flex gap-4">Integrity</p>
+                  <p className="flex gap-4 font-bold">Integrity</p>
                   <p>Our Core Values</p>
                 </span>
               </li>
               <li className="flex gap-3.5">
-                <IoIosCheckmarkCircle className="text-blue-600 text-3xl" />
+                <IoIosCheckmarkCircle className="text-3xl text-blue-600" />
                 <span>
-                  <p className="font-bold flex gap-4">Creativity</p>
+                  <p className="flex gap-4 font-bold">Creativity</p>
                   <p>Our Core Values</p>
                 </span>
               </li>
               <li className="flex gap-3.5">
-                <IoIosCheckmarkCircle className="text-blue-600 text-3xl" />
+                <IoIosCheckmarkCircle className="text-3xl text-blue-600" />
                 <span>
-                  <p className="font-bold flex gap-4">Customer Satisfaction</p>
+                  <p className="flex gap-4 font-bold">Customer Satisfaction</p>
                   <p>Our Core Values</p>
                 </span>
               </li>
             </ul>
-            <button className="px-5 py-3 bg-blue-600 text-white rounded-lg">
+            <button className="rounded-lg bg-blue-600 px-5 py-3 text-white">
               Learn More
             </button>
           </div>
