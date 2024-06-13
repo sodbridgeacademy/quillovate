@@ -3,7 +3,7 @@ function AssignmentIcon() {
     <div className="w-9">
       <svg
         width="100%"
-        height="auto"
+        // height="auto"
         viewBox="0 0 52 52"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

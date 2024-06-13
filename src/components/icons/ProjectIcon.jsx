@@ -3,7 +3,7 @@ function ProjectIcon() {
     <div className="bg-current w-9 py-2 px-1 rounded-sm ">
       <svg
         width="100%"
-        height="auto"
+        // height="auto"
         viewBox="0 0 26 23"
         fill="currentcolor"
         xmlns="http://www.w3.org/2000/svg"
