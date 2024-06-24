@@ -39,7 +39,7 @@ function Hero() {
         </span>
       </main>
       <picture className="flex h-full w-[60%] justify-end">
-        <img src="heroimage.svg" alt="" className="h-full w-auto" />
+        <img src="heroimage.svg" alt="heroimage" className="h-full w-auto" />
       </picture>
     </section>
   );
